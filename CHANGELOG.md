@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.1 - 2016-06-08
+
+- Add default hour option
+- Fix handling of min and max dates [853a4bd] origin/pr/35 Author: Dave Zoltok <dzoltok@klick.com>
+
 ## 1.4.0 - 2015-10-30
 
 - Fix touch device support, see #374, #276, #301, #303, #324, #366 and #386

@@ -1,8 +1,8 @@
 {
   "name": "pikaday-time",
-  "repo": "owenmead/Pikaday",
+  "repo": "anonima-studio/Pikaday",
   "description": "Time support added to pikaday",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "keywords": [
     "datepicker",
     "calendar",

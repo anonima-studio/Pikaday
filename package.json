@@ -1,6 +1,6 @@
 {
   "name": "pikaday-time",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Time support added to pikaday",
   "keywords": [
     "datepicker",
@@ -10,7 +10,7 @@
     "datetime"
   ],
   "homepage": "http://dbushell.github.io/Pikaday/",
-  "bugs": "https://github.com/owenmead/Pikaday/issues",
+  "bugs": "https://github.com/anonima-studio/Pikaday/issues",
   "licenses": [
     {
       "type": "BSD",
@@ -24,7 +24,7 @@
   "main": "pikaday.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/owenmead/Pikaday.git"
+    "url": "https://github.com/anonima-studio/Pikaday.git"
   },
   "optionalDependencies": {
     "moment": "2.x"
