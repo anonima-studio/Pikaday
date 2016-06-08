@@ -256,6 +256,7 @@
         incrementHourBy: 1,
         incrementMinuteBy: 1,
         incrementSecondBy: 1,
+        defaultHour: 0,
 
         // option to prevent calendar from auto-closing after date is selected
         autoClose: true,
@@ -1028,7 +1029,7 @@
             if (opts.showTime) {
                 html += '<div class="pika-time-container">' +
                         renderTime(
-                            this._d ? this._d.getHours() : 0,
+                            this._d ? this._d.getHours() : opts.defaultHour,
                             this._d ? this._d.getMinutes() : 0,
                             this._d ? this._d.getSeconds() : 0,
                             opts)
