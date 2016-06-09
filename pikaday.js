@@ -500,11 +500,19 @@
                             target.getAttribute('data-pika-day')
                         );
                     // Preserve time selection when date changed
-                    if (self._d && opts.showTime) {
-                        newDate.setHours(self._d.getHours());
-                        newDate.setMinutes(self._d.getMinutes());
-                        if (opts.showSeconds) {
-                            newDate.setSeconds(self._d.getSeconds());
+                    if (opts.showTime) {
+                        if (typeof self._d !== "undefined") {
+                            newDate.setHours(self._d.getHours());
+                            newDate.setMinutes(self._d.getMinutes());
+                            if (opts.showSeconds) {
+                                newDate.setSeconds(self._d.getSeconds());
+                            }
+                        } else {
+                            newDate.setHours(opts.defaultHours);
+                            newDate.setMinutes(opts.defaultMinutes);
+                            if (opts.showSeconds) {
+                                newDate.setSeconds(opts.defaultSeconds);
+                            }
                         }
                     }
                     self.setDate(newDate);
